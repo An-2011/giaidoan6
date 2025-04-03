@@ -1,0 +1,36 @@
+[2025-04-02 13:23:05] JSON nhận được: {
+  "id_nguoi_dung": 2,
+  "date": "2025-04-02",
+  "pain_level": 5,
+  "uric_acid": 7.2,
+  "notes": "Thấy đau nhẹ ở bàn chân",
+  "action": "send"
+}
+
+
+
+[2025-04-02 14:57:22] JSON nhận được: ngay=2025-05-04&chi_so_axit_uric=200&muc_do_dau=1&ghi_chu=%C4%91au&id_nguoi_dung=gGeQG1o933bQqFOIU6YPM1V1UL03&
+[2025-04-02 14:57:24] JSON nhận được: ngay=2025-05-04&chi_so_axit_uric=200&muc_do_dau=1&ghi_chu=%C4%91au&id_nguoi_dung=gGeQG1o933bQqFOIU6YPM1V1UL03&
+[2025-04-02 14:57:46] JSON nhận được: ngay=2025-05-04&chi_so_axit_uric=200&muc_do_dau=1&ghi_chu=%C4%91au&id_nguoi_dung=gGeQG1o933bQqFOIU6YPM1V1UL03&
+[2025-04-02 14:59:15] JSON nhận được: {
+    "id_nguoi_dung": 1,
+    "ngay": "2025-04-02",
+    "muc_do_dau": 5,
+    "chi_so_axit_uric": 7.2,
+    "ghi_chu": "Nhức mỏi nhẹ"
+}
+
+
+
+[2025-04-02 15:00:17] JSON nhận được: {
+    "id_nguoi_dung": 1,
+    "ngay": "2025-04-02",
+    "muc_do_dau": 5,
+    "chi_so_axit_uric": 7.2,
+    "ghi_chu": "Nhức mỏi nhẹ"
+}
+
+
+
+[2025-04-02 15:00:20] JSON nhận được: ngay=2025-05-04&chi_so_axit_uric=200&muc_do_dau=1&ghi_chu=%C4%91au&id_nguoi_dung=gGeQG1o933bQqFOIU6YPM1V1UL03&
+[2025-04-02 15:04:00] JSON nhận được: ngay=2025-05-04&chi_so_axit_uric=500.0&muc_do_dau=1.0&ghi_chu=%C4%91au&id_nguoi_dung=gGeQG1o933bQqFOIU6YPM1V1UL03&

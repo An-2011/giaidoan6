@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ungdungcoxuongkhop" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Màu sắc chính của ứng dụng -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+
+        <!-- Màu nền và văn bản -->
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+    <style name="Theme.Ungdungcoxuongkhop" parent="Base.Theme.Ungdungcoxuongkhop" />
+</resources>
