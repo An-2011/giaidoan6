@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="@android:color/white"
+    android:elevation="2dp">
+
+    <!-- Hiển thị ID người dùng -->
+    <TextView
+        android:id="@+id/txtUserId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Người dùng ID: 1"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Hiển thị ID bác sĩ -->
+    <TextView
+        android:id="@+id/txtDoctorId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bác sĩ ID: 1"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Hiển thị điểm số đánh giá -->
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điểm: ⭐⭐⭐"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Hiển thị nhận xét -->
+    <TextView
+        android:id="@+id/txtComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhận xét: Rất tốt!"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Hiển thị ngày tháng -->
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày: 01/01/2025"
+        android:textSize="12sp"
+        android:textColor="@android:color/darker_gray" />
+</LinearLayout>

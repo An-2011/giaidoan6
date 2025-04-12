@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    android:layout_marginHorizontal="4dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="12dp"
+    android:padding="12dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Thông tin bác sĩ -->
+        <TextView
+            android:id="@+id/tvDoctorInfoAdmin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Thông tin bác sĩ"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnEditDoctorAdmin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:paddingEnd="8dp"
+            android:maxLines="10" />
+
+        <!-- Nút sửa -->
+        <ImageButton
+            android:id="@+id/btnEditDoctorAdmin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_edit"
+            android:contentDescription="Sửa bác sĩ"
+            app:tint="@color/purple_500"
+            app:layout_constraintEnd_toStartOf="@id/btnDeleteDoctorAdmin"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <!-- Nút xóa -->
+        <ImageButton
+            android:id="@+id/btnDeleteDoctorAdmin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_delete"
+            android:contentDescription="Xóa bác sĩ"
+            app:tint="#F44336"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

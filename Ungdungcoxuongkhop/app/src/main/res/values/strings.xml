@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Khám &amp; Tư vấn Cơ Xương Khớp</string>
+    <string name="icon_description">Mô tả icon</string>
+    <string name="gout_info_text">Bệnh Gout là một dạng viêm khớp gây đau đớn. Nguyên nhân chủ yếu là do sự tích tụ axit uric trong máu. Hãy duy trì chế độ ăn uống hợp lý và tập thể dục thường xuyên.</string>
+    <string name="doctor_list_message">Danh sách bác sĩ sẽ hiển thị ở đây.</string>
+    <string name="doctor_name_label">Tên bác sĩ:</string>
+    <string name="doctor_specialty_label">Chuyên khoa:</string>
+    <string name="hint_name">Nhập tên của bạn</string>
+    <string name="hint_date">Chọn ngày khám</string>
+    <string name="book_button_text">Đặt Lịch</string>
+    <string name="title_book_appointment">Đặt lịch khám</string>
+    <string name="default_notification_channel_id">default_channel</string>
+    <string name="function_title">Chức năng</string>
+    <string name="function_subtitle">Chức năng phụ</string>
+    <string name="btn_book">Đặt lịch</string>
+    <string name="function_icon_desc">Biểu tượng chức năng</string>
+    <string name="function_item_card">Chức năng quản lý người dùng</string>
+    <string name="function_item_icon">Biểu tượng chức năng</string>
+    <string name="function_item_title">Quản lý người dùng</string>
+    <string name="search_user">Trường tìm kiếm người dùng</string>
+    <string name="search_hint">Tìm kiếm người dùng</string>
+    <string name="search_button">Tìm kiếm</string>
+    <string name="add_user_button">Thêm người dùng</string>
+    <string name="back_button">Quay lại</string>
+    <!-- Đây là client ID cho Google Sign-In -->
+    <string name="default_web_client_id">767333364856-245ln977pe1uhd3fe80nqi9plm0cje1m.apps.googleusercontent.com</string>
+</resources>

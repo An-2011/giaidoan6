@@ -1,0 +1,134 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Quyền truy cập Internet và hệ thống -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ungdungcoxuongkhop"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <!-- Các Activity -->
+        <activity
+            android:name=".FutureDevelopmentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HealthLogActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SelfCheckActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="true" />
+
+        <!-- Thêm AdminDashboardActivity -->
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="true" />
+
+        <!-- Thêm AdminUserActivity -->
+        <activity
+            android:name=".AdminUserActivity"
+            android:exported="true" />
+
+        <!-- Thêm AdminNotificationListActivity -->
+        <activity
+            android:name=".AdminNotificationListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdminDoctorListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdminAppointmentListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StatisticsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdminReviewListActivity"
+            android:exported="true" />
+
+
+        <!-- Đặt LoginActivity là màn hình khởi động -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DoctorListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".InfoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BookAppointmentActivity"
+            android:exported="true" />
+
+        <!-- Firebase Messaging Service -->
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- Firebase Init Provider -->
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="${applicationId}.firebaseinitprovider"
+            android:exported="false"
+            tools:node="merge" />
+
+        <!-- Firebase Notification Channel -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <!-- Cho phép Firebase hoạt động khi khởi động lại -->
+        <receiver
+            android:name=".BootReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

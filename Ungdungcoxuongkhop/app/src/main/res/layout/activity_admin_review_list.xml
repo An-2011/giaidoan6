@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F9F9F9">
+
+    <!-- Layout chứa EditText + RecyclerView -->
+    <LinearLayout
+        android:id="@+id/layoutContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/btnBack"
+        android:layout_alignParentTop="true">
+
+        <!-- Tìm kiếm -->
+        <EditText
+            android:id="@+id/edtSearchReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="🔍 Tìm theo người dùng, bác sĩ, ngày..."
+            android:padding="12dp"
+            android:background="@android:drawable/edit_text"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewReview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:padding="8dp"
+            android:clipToPadding="false" />
+    </LinearLayout>
+
+    <!-- Nút quay lại nằm ở góc phải dưới màn hình -->
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="8dp"
+        android:src="@android:drawable/ic_media_previous"
+        android:background="@android:drawable/btn_default"
+        android:padding="8dp"
+        android:contentDescription="Quay lại" />
+</RelativeLayout>

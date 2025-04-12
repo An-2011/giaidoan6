@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+        <EditText
+            android:id="@+id/edtDoctorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Họ tên bác sĩ"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtDoctorSpecialty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chuyên khoa"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edtDoctorExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kinh nghiệm (năm)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtDoctorAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Địa chỉ phòng khám"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/edtDoctorPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số điện thoại"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edtDoctorCreatedDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày tạo (yyyy-MM-dd)"
+            android:inputType="date" />
+    </LinearLayout>
+</ScrollView>

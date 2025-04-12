@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:context=".YourActivity">
+
+    <!-- User ID EditText -->
+    <EditText
+        android:id="@+id/edtUserId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập ID người dùng"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Doctor Spinner -->
+    <Spinner
+        android:id="@+id/spinnerDoctor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtUserId"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Date & Time EditText -->
+    <EditText
+        android:id="@+id/edtDateTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Chọn ngày giờ khám"
+        android:focusable="false"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerDoctor"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Status EditText -->
+    <EditText
+        android:id="@+id/edtStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập trạng thái"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtDateTime"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

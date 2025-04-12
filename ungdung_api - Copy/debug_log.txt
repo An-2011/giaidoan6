@@ -1,0 +1,176 @@
+2025-04-02 20:35:45 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-04-03
+    [muc_do_dau] => 7.5
+    [chi_so_axit_uric] => 8.2
+    [ghi_chu] => Cảm giác đau nhẹ
+)
+
+Cập nhật thành công
+2025-04-02 20:36:37 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 10
+    [chi_so_axit_uric] => 500
+    [ghi_chu] => ĐAU
+)
+
+Thêm thành công
+2025-04-02 20:36:38 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 10
+    [chi_so_axit_uric] => 500
+    [ghi_chu] => ĐAU
+)
+
+Cập nhật thành công
+2025-04-02 20:36:39 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 10
+    [chi_so_axit_uric] => 500
+    [ghi_chu] => ĐAU
+)
+
+Cập nhật thành công
+2025-04-02 20:37:08 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 5
+    [chi_so_axit_uric] => 300
+    [ghi_chu] => ĐAU
+)
+
+Cập nhật thành công
+2025-04-02 20:37:19 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 5
+    [chi_so_axit_uric] => 300
+    [ghi_chu] => ĐAU
+)
+
+Cập nhật thành công
+2025-04-02 20:37:20 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 5
+    [chi_so_axit_uric] => 300
+    [ghi_chu] => ĐAU
+)
+
+Cập nhật thành công
+2025-04-02 20:37:21 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 5
+    [chi_so_axit_uric] => 300
+    [ghi_chu] => ĐAU
+)
+
+Cập nhật thành công
+2025-04-02 20:37:21 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 5
+    [chi_so_axit_uric] => 300
+    [ghi_chu] => ĐAU
+)
+
+Cập nhật thành công
+2025-04-02 20:37:21 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 5
+    [chi_so_axit_uric] => 300
+    [ghi_chu] => ĐAU
+)
+
+Cập nhật thành công
+2025-04-02 20:37:21 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 5
+    [chi_so_axit_uric] => 300
+    [ghi_chu] => ĐAU
+)
+
+Cập nhật thành công
+2025-04-02 20:37:21 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 5
+    [chi_so_axit_uric] => 300
+    [ghi_chu] => ĐAU
+)
+
+Cập nhật thành công
+2025-04-02 20:37:21 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 5
+    [chi_so_axit_uric] => 300
+    [ghi_chu] => ĐAU
+)
+
+Cập nhật thành công
+2025-04-02 20:37:29 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 5
+    [chi_so_axit_uric] => 300
+    [ghi_chu] => ĐAU
+)
+
+Cập nhật thành công
+2025-04-02 20:38:04 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 5
+    [chi_so_axit_uric] => 300
+    [ghi_chu] => ĐAU
+)
+
+Thêm thành công
+2025-04-02 20:38:05 - API called
+Dữ liệu nhận: Array
+(
+    [id_nguoi_dung] => 1
+    [ngay] => 2025-01-01
+    [muc_do_dau] => 5
+    [chi_so_axit_uric] => 300
+    [ghi_chu] => ĐAU
+)
+
+Cập nhật thành công
